@@ -57,18 +57,67 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: #00897B;
+}
 
+.ab-content{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
 
+.ab-hero{
+    height: 30%;
+}
 
+.ab-details{
+    height:70%;
+}
 
+.ab-details hr{
+    margin: 0;
+}
 
+#avatar{
+    height: 75%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
 
+.ab-name{
+    font-size: 1.7em;
+    line-height: 0.5;
+    height: 10%;
+}
 
+.ab-tagline{
+    font-size: 1.5em;
+    height: 15%;
+}
 
+.ab-intro{
+    text-align: justify;
+    padding-left: 8px;   
+    padding-right: 8px;   
+    height: 40%;
+}
 
+.ab-links{
+    height: 15%;
+}
 
-
-
+.ab-links a{
+    padding: 4px;
+    display: inline-block;
+    width: 16%;
+    color: rgba(54,71,78,.7);
+}
 
 
 
