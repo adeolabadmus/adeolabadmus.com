@@ -62,10 +62,12 @@ body{
     width: 100%;
     text-align: center;
     background-color: #00897B;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .ab-content{
     background-color: #FFFFFF;
+    color: #212121;
     height: 100%;
     width: 50%;
     margin: 0 auto;
@@ -99,6 +101,7 @@ body{
 .ab-tagline{
     font-size: 1.5em;
     height: 15%;
+    color: #263238;
 }
 
 .ab-intro{
@@ -106,6 +109,10 @@ body{
     padding-left: 8px;   
     padding-right: 8px;   
     height: 40%;
+}
+
+.ab-intro p{
+    font-size: 1.1em;
 }
 
 .ab-links{
