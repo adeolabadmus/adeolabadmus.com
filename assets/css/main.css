@@ -100,6 +100,7 @@ body{
 
 .ab-tagline{
     font-size: 1.5em;
+    font-weight: 500;
     height: 15%;
     color: #263238;
 }
@@ -108,11 +109,14 @@ body{
     text-align: justify;
     padding-left: 8px;   
     padding-right: 8px;   
-    height: 40%;
+    height: 50%;
 }
 
 .ab-intro p{
     font-size: 1.1em;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 1.5;
 }
 
 .ab-links{
@@ -123,11 +127,18 @@ body{
     padding: 4px;
     display: inline-block;
     width: 16%;
-    color: rgba(54,71,78,.7);
+    color: #616161;
 }
 
+*::selection{
+    background-color: #00897B;
+    color: #FFFFFF;
+}
 
-
+*::-moz-selection{
+    background-color: #00897B;
+    color: #FFFFFF;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
