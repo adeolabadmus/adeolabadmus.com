@@ -1,6 +1,7 @@
 {
   "name": "adeolabadmus.com",
   "version": "1.0.0",
+  "private": true,
   "description": "Personal Website of Adeola Badmus",
   "main": "index.js",
   "scripts": {
